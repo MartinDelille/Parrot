@@ -1,0 +1,57 @@
+html, body {
+	height: 100%;
+}
+
+#home {
+	background-color: purple;	
+	display:block;
+	height:100%;
+	width: 100%;
+	
+}
+
+#contenu {
+background-color: yellow;
+	height: 3000px;
+}
+#parrot-animation {
+	position: fixed;
+#	background-color: rgba(128, 128, 128, 128);
+	height: 100%;
+	width: 100px;
+	top: 0px;
+	left: 0px;
+}
+
+#logo {
+#	background-color: rgba(128, 128, 255, 128);
+}
+
+#micstick {
+	background-color: rgba(128, 255, 255, 128);
+	background-image: url("micstick2.png");
+	background-repeat: repeat-y;
+	margin-top: 90px;
+	margin-left: 88px;
+	width: 20px;
+}
+/*
+.stickyMic {
+	background-color: rgba(128, 200, 255, 128);
+	height: -moz-calc(100% - 140px); //732 = 200 + 532
+    height: -webkit-calc(100% - 140px);
+    height: calc(100% - 140px);
+}*/
+
+#parrot {
+	position: absolute;
+	background-color: rgba(0, 255, 0, 128);
+	height: 138px;
+	margin-top: 90px;
+	margin-left: 84px;
+}
+
+#parrot.sticky{
+	position: fixed;	
+	background-color: rgba(50, 255, 50, 128);
+}
